@@ -1,0 +1,67 @@
+
+{*
+     border:0px;
+    margin:0px;
+    padding:0px;
+}
+.header{
+    background-color: #f2a01d;
+ }
+li{
+    display: inline-flex;
+    font-size: 20px;
+    margin-right: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+ul{
+    position:absolute;
+  right:50px;
+  top:50px;
+  color: gray;
+}
+.logo{
+    height: 50px;
+
+}
+.form {
+ width: 350px;
+ display: inline-flex;
+}
+.titulo{
+    margin-top: 250px;
+   color:gray;
+}
+#principal{
+   /* display: flex;*/
+   margin-top:0px;
+   padding: 0px;
+   float: right;
+   margin-bottom: 20px;
+}
+@media (max-width:360px){
+    #principal{
+      width: 100%;
+    }
+}
+@media (max-width:360px){
+    .header{
+      align-content: center;
+      align-content: center;
+    }
+}
+#Inicio{
+    height: 100vh;
+    width:100%;
+    background-color: #f2a01d;
+}
+#Nuestrosservicios{
+    height: 100vh;
+    width:100%;
+    background-color:#572364;;
+}
+#Nuestracompañia{
+    height: 100vh;
+    width:100%;
+    background-color:gray;
+}
